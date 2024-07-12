@@ -17,8 +17,8 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class APIConfig {
-    public static final String BASE_URL = "http://167.71.221.107:5004/";
-    public static final String BASE_IMAGE_URL = "http://167.71.221.107:5004";
+    public static final String BASE_URL = "https://select-woodcock-ideally.ngrok-free.app/";
+    public static final String BASE_IMAGE_URL = "https://select-woodcock-ideally.ngrok-free.app";
     static OkHttpClient client;
     public static Retrofit retrofit;
     public static APIService getApiService() {
